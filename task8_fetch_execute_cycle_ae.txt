@@ -1,0 +1,34 @@
+Task 8
+Explain how the computer processes the program using the fetch-execute cycle with reference to processor, memory and buses. 
+
+Aurthor Amy Eastcroft 
+Date 13/02/24
+Description - Task 8 Fetch-Execute Cycle
+
+The CPU is the brain of the computer and executes instructions.
+It consists of the Arithmetic Logic Unit (ALU), Control Unit (CU), and registers.
+The Control Unit coordinates the fetch-execute cycle by fetching instructions from memory, decoding them, and executing them.
+The ALU performs arithmetic and logical operations as instructed by the fetched instructions.
+
+The computer processes the program using the fetch-execute cycle. The cycle involves four steps which are grouped into twos by time. 
+Within the instruction time frame (i-time) instruction are retrieved from memory and decoded by the CPU (cental processing unit) the related steps are called 'Fetch' and 'Decode':
+
+Fetch: The CPU retrieves instructions from a systems hard disk drive (HDD) or solid state drive (SSD) and stores them in a register location which is a temporary storage location within the CPU.
+Decode: At this stage the CPU determines which components are required in the execution of the instruction, outlining parameters for a successful execution. 
+
+Within the execution time frame (e-time) program instructions are executed by the CPU with processed data information being stored the assicuated steps are called 'Execute' and 'Store':
+
+Execute: The CPU assigns the specific actions to the revelant system components in order ro carry out the initial program instructions, processing the actual data.
+Store: The newly processed is written back into the memory location on the HDD or SSD. 
+
+The memory is saved as machine code (ones and zeros) and is categorised as either RAM (Random Access Memory) or ROM (Read Only Memory).
+The first of the two being volatile memory that stores data and program instructions temporarily during execution 
+and the latter stores firmware and permanent system instructions that do not change.
+
+Buses are pathways that allow data and instructions to travel between the CPU, memory, and other components of the computer.
+The primary buses involved in the fetch-execute cycle are the address bus, data bus, and control bus.
+The address bus carries memory addresses, specifying the location of data or instructions in memory.
+The data bus carries actual data between the CPU and memory.
+The control bus carries control signals that coordinate and synchronize the activities of various components during the fetch-execute cycle.
+
+The fetch-execute cycle goes back to the start and repeats continuously unless an error is encountered. 

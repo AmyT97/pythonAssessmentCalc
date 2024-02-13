@@ -1,0 +1,34 @@
+Task 1 - Write an algorithm using an appropriate design notation (pseudocode) which will input one student's coursework mark and prelim mark and calculate and display their percentage and grade.
+Remember to show data flow and ensure that the input is validated. 
+
+Part 1 - pseudocode
+
+1. input one student's coursework mark
+2. input one student's prelim mark 
+3. calculate percentage 
+4. compare percentage with marking scheme and display grade using a series of IF statements 
+
+Part 2 - stepwise refinement 
+
+1.1 PRINT enter students coursework mark
+1.2 DO
+1.3     GET courseWorkMark
+1.4 WHILE < 0 OR > 60
+
+2.1 PRINT enter students prelim mark
+2.2 DO
+2.3     GET prelimMark 
+2.4 WHILE < 0 OR > 90
+
+3.1 CALCULATE percentage = (courseWorkMark + prelimMark)*100/150
+
+4.1 IF percentage > 70% 
+        PRINT grade A
+    ELSE IF percentage > 60% OR < 69%
+        PRINT grade B
+    ELSE IF percentage > 50% OR < 59% 
+        PRINT grade C
+    ELSE IF percentage > 45% OR <49%
+        PRINT grade D 
+    ELSE percentage <45% 
+        PRINT grade no award
